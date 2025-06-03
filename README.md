@@ -3,92 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Educação Física</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #2e8b57;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #1c5d3b;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 20px;
-            background: white;
-        }
-        footer {
-            background-color: #2e8b57;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .image {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .image img {
-            width: 300px;
-            border-radius: 10px;
-        }
-    </style>
 </head>
-<body>
+<body style="font-family: Arial; background-color: #e8f5e9; margin: 0; padding: 0;">
 
-    <header>
-        <h1>Bem-vindo à Educação Física</h1>
-        <p>Saúde, movimento e qualidade de vida!</p>
+    <header style="background-color: #388e3c; color: white; padding: 20px; text-align: center;">
+        <h1>Educação Física Escolar</h1>
+        <p>Movimente seu corpo, melhore sua saúde!</p>
     </header>
 
-    <nav>
-        <a href="#importancia">Importância</a>
-        <a href="#atividades">Atividades</a>
-        <a href="#contato">Contato</a>
-    </nav>
+    <main style="padding: 20px;">
+        <section>
+            <h2>O que é Educação Física?</h2>
+            <p>A Educação Física é uma disciplina que promove a saúde, o bem-estar e o desenvolvimento físico através da prática de atividades corporais e esportes.</p>
+        </section>
 
-    <section id="importancia">
-        <h2>Importância da Educação Física</h2>
-        <p>A Educação Física promove o bem-estar físico e mental. Através de atividades corporais, desenvolve-se a coordenação motora, disciplina, trabalho em equipe e hábitos saudáveis que perduram por toda a vida.</p>
-    </section>
+        <section>
+            <h2>Benefícios</h2>
+            <ul>
+                <li>Melhora da coordenação motora</li>
+                <li>Promoção da saúde mental</li>
+                <li>Desenvolvimento do trabalho em equipe</li>
+                <li>Combate ao sedentarismo</li>
+            </ul>
+        </section>
 
-    <section id="atividades">
-        <h2>Atividades Comuns</h2>
-        <ul>
-            <li>Alongamento e aquecimento</li>
-            <li>Esportes coletivos (futebol, vôlei, basquete)</li>
-            <li>Atividades rítmicas e dança</li>
-            <li>Treinamento funcional</li>
-            <li>Educação postural</li>
-        </ul>
+        <section>
+            <h2>Atividades Comuns</h2>
+            <ol>
+                <li>Aquecimento e alongamento</li>
+                <li>Futebol e basquete</li>
+                <li>Dança e ginástica</li>
+                <li>Corrida e circuitos funcionais</li>
+            </ol>
+        </section>
 
-        <div class="image">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Team_sports.jpg/640px-Team_sports.jpg" alt="Esporte em equipe">
-        </div>
-    </section>
+        <section>
+            <h2>Contato</h2>
+            <p>Entre em contato pelo e-mail: <a href="mailto:educacaofisica@escola.com">educacaofisica@escola.com</a></p>
+        </section>
+    </main>
 
-    <section id="contato">
-        <h2>Fale Conosco</h2>
-        <p>Envie suas dúvidas para <a href="mailto:educacaofisica@escola.com">educacaofisica@escola.com</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Educação Física Escolar. Todos os direitos reservados.</p>
+    <footer style="background-color: #2e7d32; color: white; text-align: center; padding: 10px;">
+        <p>&copy; 2025 Educação Física Escolar</p>
     </footer>
 
 </body>
