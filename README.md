@@ -1,4 +1,3 @@
-# Educa-o-f-sica- 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
