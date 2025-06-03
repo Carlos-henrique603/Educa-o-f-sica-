@@ -2,107 +2,47 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segurança Pessoal</title>
+    <title>Educação Física</title>
     <style>
         body {
-            font-family: Verdana, sans-serif;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
             margin: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            padding: 0;
         }
-
         header {
-            background-color: #c62828;
+            background-color: #2e8b57;
             color: white;
             padding: 20px;
             text-align: center;
         }
-
         nav {
-            background-color: #e53935;
-            text-align: center;
+            background-color: #1c5d3b;
             padding: 10px;
+            text-align: center;
         }
-
         nav a {
             color: white;
-            text-decoration: none;
             margin: 0 15px;
-            font-weight: bold;
+            text-decoration: none;
         }
-
-        main {
-            padding: 20px;
-        }
-
         section {
-            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
         }
-
         footer {
-            background-color: #c62828;
+            background-color: #2e8b57;
             color: white;
             text-align: center;
             padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
-
-        ul {
-            padding-left: 20px;
+        .image {
+            text-align: center;
+            margin-top: 20px;
         }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Dicas de Segurança Pessoal</h1>
-    <p>Saiba como se proteger de furtos e assaltos</p>
-</header>
-
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#dicas">Dicas</a>
-    <a href="#evitar">O que evitar</a>
-    <a href="#emergencia">Emergência</a>
-</nav>
-
-<main>
-    <section id="sobre">
-        <h2>Por que se proteger?</h2>
-        <p>Infelizmente, a criminalidade faz parte da realidade de muitas cidades. Conhecer medidas de prevenção pode ajudar a evitar situações perigosas e manter você e sua família mais seguros.</p>
-    </section>
-
-    <section id="dicas">
-        <h2>Dicas de Segurança</h2>
-        <ul>
-            <li>Evite andar com celular visível em locais movimentados.</li>
-            <li>Prefira caminhos bem iluminados e movimentados.</li>
-            <li>Fique atento ao seu redor, especialmente em transportes públicos.</li>
-            <li>Evite usar fones de ouvido em locais isolados.</li>
-            <li>Instale trancas e câmeras em casa, se possível.</li>
-        </ul>
-    </section>
-
-    <section id="evitar">
-        <h2>O que evitar</h2>
-        <ul>
-            <li>Evite reagir em caso de assalto.</li>
-            <li>Não carregue grandes quantias de dinheiro.</li>
-            <li>Evite exibir joias ou objetos de valor em público.</li>
-            <li>Não compartilhe sua localização em tempo real nas redes sociais.</li>
-        </ul>
-    </section>
-
-    <section id="emergencia">
-        <h2>Em caso de emergência</h2>
-        <p>Ligue imediatamente para a polícia no <strong>190</strong>.</p>
-        <p>Se possível, anote características do suspeito ou veículo, mas nunca coloque sua vida em risco.</p>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2025 Guia de Segurança. Mantenha-se seguro!</p>
-</footer>
-
-</body>
-</html>
+        .image img {
+            width: 300px;
+            border-radius: 10
